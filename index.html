@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Zen+Dots&display=swap" rel="stylesheet">    
     <title>Zachary Picklesimer's Portfolio Page</title>
 </head>
 <!-- This is the header section with my name and links -->
 <body>
-    <div class="header">
+    <header class="jumbotron jumbotron_main text-center">
         <h1>Zachary Picklesimer </h1>
         <div>
             <ul>
@@ -27,14 +36,9 @@
                 </li>
             </ul>
         </div> 
-
-        <!-- This is the subheader section, it has a gradient background and says that this page is my portfolio -->
-        <div class = "subhead">
             <div class = "subhead-text"> Portfolio Page for Zachary Picklesimer 
-            </div>    
-    </div>
-</body>
-<body>  
+            </div>   
+    </header>         
     <!-- This is the content section. There are 3 headers About Me, Work, and Contact Me -->
 <div class = "Content">
 
@@ -75,12 +79,12 @@
                 </div>
             </div> 
             <div class = "Work-Project-Container">
-                <div class = "card Work-Card-4"> 
+                <div class = "card work-card-4"> 
                 <div class =  "Card-Text">Project 4</div>
                 </div>
-                <div class = "card Work-Card-5">
-                <div class = "Card-Text">Project 5</div>
-                </div>
+                <div class = "card work-card-5"> 
+                <div class = "Card-Text">Custom Music Projects</div>
+                </div> 
             </div>    
         </div>
     </div>
@@ -101,4 +105,7 @@
     <h2>Thank you for visiting my webpage! </h2>
 </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
 </html>
