@@ -168,7 +168,7 @@ a:hover
 {
     width: 100%;
     position:relative;
-    background-image: url('https://images.pexels.com/photos/7135057/pexels-photo-7135057.jpeg');
+    background-image: url('src_card.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
