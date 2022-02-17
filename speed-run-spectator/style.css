@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Anaheim', 'Bungee Shade', cursive;
+}
+
+body {
+    background-color: #d9dcd6;
+    font-family: 'Anaheim';
+    line-height: 1;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: 'Zen Dots', 'Anaheim' , 'Bungee Shade', cursive;
+    position: relative;
+    font-size: 48px;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    justify-items:center;
+    align-items:center;
+    text-align: center;
+    background: url("./speedrun-bg-sonic-edit.png") center center no-repeat;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    font-family: 'Zen Dots' 'Bungee Shade', cursive;
+    color: white;
+    height: 35vh;
+    /* position: relative; */
+    justify-content: center;
+    -webkit-background-size: cover;
+}
+
+.moving-title
+{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #ff00f2 0%,
+        #0004df 29%,
+        #00aeff 67%,
+        #ff00f2 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.subhead-text {
+    position:center;
+    bottom: 20px;
+    right: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 12px, 12px, gray;
+}
+
+.search-field {
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.input-group {
+    width: 40vw;
+}
+
+#search-container {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: lightgray;
+    /* margin-bottom: 10vh; */
+}
+.search-results {
+    height: auto;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+#favorites-container {
+    height: auto;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+/* .favorite-runners {
+    position: relative;
+    display: flex;
+    border: 2px solid black;
+    height: 50vh
+} */
+
+.followLinkBtn {
+border-left: 1px solid black;
+/* border-top-right-radius: 15px; */
+/* border-bottom-right-radius: 15px; */
+border-radius: 15px;
+opacity: 50%;
+background-color: #00ff22;
+color: white;
+width: 40px;
+}
+
+.followLinkBtn:hover {
+transition: all 0.3s ease-in-out;
+opacity: 100%;
+}
+
+.followLinkBtn i:hover {
+font-size: 20px;
+transition: all 0.3s ease-in-out;
+}
+
+.footer {
+    height: auto;
+    background-color: #ff81f9;
+    /* border-radius: 0; */
+    border-top: 5px solid black;
+    padding-top: 3px;
+}
+
+.info-what{
+    margin:5px;
+    font-size:22px;
+}
+
+.info-why{
+    margin:5px;
+    font-size:22px;
+}
+
+.info-how{
+    margin:5px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 792px) {
+    .info-snippet
+    {
+        font-size: 16px;    
+    }
+}
+
+
+@media screen and (max-width: 792px) {
+    .subheader
+    {
+        font-size: 16px;    
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .info-how
+    {
+        font-size: 12px;    
+    }
+}
