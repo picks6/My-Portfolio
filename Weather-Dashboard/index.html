@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body onload="loadPrevious()">
+    <header>
+      <div id = "jumbotron" class="jumbotron">
+        <h1 class = "text-center">Weather Dashboard<h1>
+        <p id = "current-date" class="current-date"></p>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 search">
+                <h2>Search by City:</h2>
+                <form class="form">
+                    <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Enter a City" aria-label="Search">
+                    <button id="searchBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                <div class="past-searches">
+                </div>
+            </div>
+
+            <div class="col-9 weather-display">
+                <div class="container current-weather">
+
+                </div>
+                <div class="container five-day">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

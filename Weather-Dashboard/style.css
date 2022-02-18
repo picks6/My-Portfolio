@@ -1,0 +1,122 @@
+.jumbotron {
+    background: #002336;
+    color: white;
+    padding: 15px;
+    min-height: 20vh;
+    position:relative
+}
+
+.h1 {
+  font-size: 50px;
+
+}
+
+.current-date{
+    position:absolute;
+    right:0;
+    top:0;
+    font-size: 18px;;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.form input {
+    width: 100%;
+    margin: 5px;
+}
+
+.city-div{
+    position:relative;
+}
+
+.city-date{
+    text-align: right;
+    padding-left: 30%;
+    right:0px;
+    top: 0px;
+}
+
+.current-weather {
+    display:flex;
+    position:relative;
+    flex-direction: column;
+}
+
+
+.form button {
+    width: 100%;
+    margin: 5px;
+    
+}
+
+
+.cityBtn {
+    margin: 10px;
+    width: 100%;
+
+    
+}
+
+.past-searches {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.weather-display {
+    padding-right: 5%;
+}
+
+.weather-display img{
+    max-height: 50px;
+    width: 10%
+}
+
+/* TO STYLE THE MAIN WEATHER BOX */
+.current-weather {
+    padding: 10px;
+    background: silver;
+
+}
+
+.cityDiv {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.uv {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* 5 day weather box */
+.five-day {
+    display: flex;
+    justify-content: space-around;
+    background-color: silver;
+}
+
+.card {
+    padding: 10px;
+    line-height: 12px;
+}
+
+.card img{
+    height:50px;
+    width:50%;
+}

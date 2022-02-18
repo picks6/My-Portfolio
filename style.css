@@ -240,6 +240,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     position: relative;
     background: rgb(242, 112,156);
     background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    background-image: url('weather_card.JPG');
+    background-size: cover;
     width:50%;
     min-height: 200px;
     max-height: 300px;
@@ -273,6 +275,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     position: relative;
     background: #8E62FC;
     background: linear-gradient(to bottom right, #8E62FC, #31221E);
+    background-image: url('password_card.jpg');
+    background-size: cover;
     width:50%;
     min-height: 200px;
     max-height: 300px;
