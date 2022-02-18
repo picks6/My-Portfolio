@@ -235,7 +235,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
 }
     
 
-.Work-Card-2
+.work-card-2
 {
     position: relative;
     background: rgb(242, 112,156);
@@ -249,18 +249,19 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     
 }    
 
-.Work-Card-2
+.work-card-2
     {
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
     -webkit-transition: all 1s ease;
     }
     
-.Work-Card-2:hover{
+.work-card-2:hover{
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
     filter: none;
     transition: 1s ease;
+    cursor:pointer
     }
 
     @media screen and (min-width: 1200px) {
@@ -270,7 +271,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
         }
     }
 
-.Work-Card-3
+.work-card-3
     {
     position: relative;
     background: #8E62FC;
@@ -283,19 +284,20 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     margin-top: 10px;
     }
 
-.Work-Card-3
+.work-card-3
     {
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
     -webkit-transition: all 1s ease;
     }
     
-.Work-Card-3:hover
+.work-card-3:hover
     {
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
     filter: none;
     transition: 1s ease;
+    cursor: pointer;
     }
 
     @media screen and (min-width: 1200px) {
