@@ -137,7 +137,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-   
+    background-color: #d9dcd6;
     
 }
 .msu-container-right
@@ -212,6 +212,12 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
         border:none;
 
     }
+.wr64_text
+{
+    background-color: #d9dcd6;
+    border:none;
+
+}
 
 .msu-card-pss
     {
