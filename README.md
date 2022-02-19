@@ -8,6 +8,12 @@ Repository for my portfolio. Page is live at www.picks6.net. This will be a land
 links to some relevant project work, as well as some personal projects I have been working on in my spare time.
 These pages should all also have a seperate repo if you need further information.
 
+## Technologies Used
+HTML
+CSS
+Javascript
+
+
 
 ## User Story
 
