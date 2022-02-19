@@ -16,7 +16,7 @@ body
 {
     width:100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    background: linear-gradient(315deg, #0abcf9 0%, #fffb96 74%);
     color: #ffffff;
     position: absolute;
 }
@@ -87,9 +87,9 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 20px;
-    background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    background: linear-gradient(315deg, #0abcf9 0%, #fffb96 74%);
 }  
-  .jumbotron {
+  .jumbotron_main {
     text-align: center;
     background-color: transparent;
     border-radius: 0;
@@ -100,9 +100,10 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     position: relative;
   }
 
-.jumbotron h1{
+.jumbotron_main h1{
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    padding-top: 5%;
 }
 
 .subhead-text
@@ -323,11 +324,40 @@ footer h2
     text-align: center;
     font-size: 20px;
     color:white;
-    background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    background: linear-gradient(315deg, #0abcf9 0%, #000096 74%);
 }
 
 footer a
     {
         text-decoration: none;
     }
-  
+
+.msu-card-wr64
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url("img/wr64.png");
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+    }
+
+.msu-card-wr64
+    {
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%)
+    }
+    
+.msu-card-wr64:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+.msu-card-wr64 .Card-Text{
+    right: 50px;
+    bottom: 10px;
+}
+    
