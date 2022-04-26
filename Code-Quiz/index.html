@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Javascript Code Quiz</title>
+</head>
+<!-- This is the header section with my name and a link to the high score page -->
+
+<body>
+    <header>
+        <div class = "header"> Zach's Code Quiz 
+            <p> <a class = "highScores" href="./highscores.html">View High Scores</a>
+            <p> Time Remaining <span id = "time"> 30 </span></p> 
+    </div>
+    </header>
+    <!-- This is the content section of the quiz -->
+<main>
+
+    <div id = "content">
+    <button id="startBtn">Start Quiz</button>
+
+        <div hidden id ="question">
+     
+    </div> 
+    <ul>
+        <li><button id="answerA"></button></li> 
+        <li><button id="answerB"></button></li> 
+        <li><button id="answerC"></button></li>
+    </ul>   
+    <p id = "evaluation"> </p>
+    <div hidden id ="resultsArea">
+            <h2> Submit your name and score!</h2>
+            <p> Final Score - <span id ="finalScore"></span></p> 
+            <input id="playerName" type="text"/>
+            <button id="submitBtn"> Submit</button> 
+    </div>
+    </div>
+</main>
+
+<footer>
+    <h2>Thank you for visiting my webpage! Here's how to reach me: 
+        <a href="mailto:zachary.picklesimer@gmail.com">&#128231 </a>
+        <a href="https://www.linkedin.com/in/zachary-picklesimer-205b1433/" target=blank> <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Contact me On LinkedIn" width="30" height="30"> </a>
+        <a href="https://github.com/picks6/" target="blank"><img src = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Check Out this project on Github" width="30" height="30"> </a>
+    </h2>
+</footer>    
+<script src="script.js"></script>
+</body>
+</html>

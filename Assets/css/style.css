@@ -377,6 +377,208 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
         }
     }
 
+.Work-Card-6
+    {
+        width: 100%;
+        position:relative;
+        background-image: url('./img/src_card.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /*background:linear-gradient(90.6deg,  rgba(59,158,255,1) -1.2%, rgba(246,135,255,1) 91.6% );
+        */
+        min-height: 400px;
+     
+    }
+
+.work-card-7
+    {
+    position: relative;
+    background: #23074d;  
+    /* background-image: url('./img/ghreadme.png'); */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:50%;
+    min-height: 200px;
+    max-height: 300px;
+    margin-bottom: 10px;
+    }
+
+.work-card-7
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.work-card-7:hover
+{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .work-card-7
+        {
+            margin-right: 10px;    
+        }
+    }
+
+.work-card-8
+{
+    position: relative; 
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./img/alttp.jpg');
+    background-size: cover;
+    width:50%;
+    min-height: 200px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+.work-card-8{
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.work-card-8:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .work-card-8
+        {
+            margin-left: 10px;    
+        }
+    }
+
+    .work-card-8
+    {
+        position: relative; 
+        background: #4AC29A;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-image: url('./img/alttp.jpg');
+        background-size: cover;
+        width:50%;
+        min-height: 200px;
+        max-height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .work-card-8{
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -webkit-transition: all 1s ease;
+        }
+        
+    .work-card-8:hover{
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        filter: none;
+        transition: 1s ease;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            .work-card-8
+            {
+                margin-left: 10px;    
+            }
+        }        
+
+.work-card-9
+    {
+    position: relative;
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:50%;
+    min-height: 200px;
+    max-height: 300px;
+    margin-bottom: 10px;
+    }
+
+.work-card-9
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.work-card-9:hover
+{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .work-card-9
+        {
+            margin-right: 10px;    
+        }
+    }
+
+
+.work-card-10
+{
+    position: relative; 
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./img/alttp.jpg');
+    background-size: cover;
+    width:50%;
+    min-height: 200px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+.work-card-10{
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.work-card-10:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .work-card-10
+        {
+            margin-left: 10px;    
+        }
+    }
+
+.work-card-10
+{
+    position: relative; 
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./img/alttp.jpg');
+    background-size: cover;
+    width:50%;
+    min-height: 200px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+
 .Card-Text
 {
     position:absolute;
