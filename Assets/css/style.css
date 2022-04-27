@@ -102,6 +102,7 @@ a:hover
     color:#fffb96;
     text-align: top;
     margin-right: 5px;
+    height:100%;
 }
 
 .About-Me-Text
@@ -111,9 +112,20 @@ a:hover
     font-size: 24px;
     }
 
+.About-Me-Text a
+    {
+    text-decoration: underline;
+    color: #fffb96;    
+    }    
+
+a:hover
+    {
+        cursor: pointer;
+    }
+
 .ProfileImage{
     min-height:100px;
-    max-height: 200px;
+    max-height: 300px;
     border-radius: 100%;
     margin: 10px;
     margin-top:50px;
