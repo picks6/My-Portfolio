@@ -116,7 +116,7 @@ a:hover
     max-height: 200px;
     border-radius: 100%;
     margin: 10px;
-    margin-top:25px;
+    margin-top:50px;
 }
 
 .About-Me-Right
@@ -312,8 +312,9 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     {
     position: relative;
     background: #23074d;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./img/quiz.jpg');
+    /*background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width:50%;
     min-height: 200px;
     max-height: 300px;
@@ -381,7 +382,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     {
         width: 100%;
         position:relative;
-        background-image: url('./img/src_card.jpg');
+        background-image: url('./img/blog.jpg');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -399,6 +400,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     /* background-image: url('./img/ghreadme.png'); */
     background: -webkit-linear-gradient(to right, #cc5333, #23074d);  
     background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./img/readme.jpg');
+    background-size: cover;
     width:50%;
     min-height: 200px;
     max-height: 300px;
@@ -433,7 +436,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     background: #4AC29A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url('./img/alttp.jpg');
+    background-image: url('./img/notetaker.webp');
     background-size: cover;
     width:50%;
     min-height: 200px;
@@ -451,7 +454,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
     filter: none;
-    transition: 1s ease;
+    transition: 1s ease;;
     }
 
     @media screen and (min-width: 1200px) {
@@ -461,46 +464,14 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
         }
     }
 
-    .work-card-8
-    {
-        position: relative; 
-        background: #4AC29A;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background-image: url('./img/alttp.jpg');
-        background-size: cover;
-        width:50%;
-        min-height: 200px;
-        max-height: 300px;
-        margin-bottom: 10px;
-    }
-    
-    .work-card-8{
-        filter: brightness(50%);
-        -webkit-filter: brightness(50%);
-        -webkit-transition: all 1s ease;
-        }
-        
-    .work-card-8:hover{
-        filter: brightness(100%);
-        -webkit-filter: brightness(100%);
-        filter: none;
-        transition: 1s ease;
-        }
-    
-        @media screen and (min-width: 1200px) {
-            .work-card-8
-            {
-                margin-left: 10px;    
-            }
-        }        
-
 .work-card-9
     {
     position: relative;
     background: #23074d;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('./img/database.jpg');
+    background-size: cover;
     width:50%;
     min-height: 200px;
     max-height: 300px;
@@ -536,7 +507,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     background: #4AC29A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url('./img/alttp.jpg');
+    background-image: url('./img/ecommerce.png');
     background-size: cover;
     width:50%;
     min-height: 200px;
@@ -563,20 +534,6 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
             margin-left: 10px;    
         }
     }
-
-.work-card-10
-{
-    position: relative; 
-    background: #4AC29A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: url('./img/alttp.jpg');
-    background-size: cover;
-    width:50%;
-    min-height: 200px;
-    max-height: 300px;
-    margin-bottom: 10px;
-}
 
 
 .Card-Text
@@ -607,7 +564,7 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     text-align: right;
     display: flex;
     flex-direction: row-reverse;
-    /*justify-content: space-between; */
+    align-items: flex-end;
 }
 
 .Email a
