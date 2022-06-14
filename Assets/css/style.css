@@ -190,6 +190,21 @@ a:hover
     min-height: 400px;
  
 }
+
+.Work-Card-QM
+{
+    width: 100%;
+    position:relative;
+    background-image: url('./img/quizmaster.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background:linear-gradient(90.6deg,  rgba(59,158,255,1) -1.2%, rgba(246,135,255,1) 91.6% );
+    */
+    min-height: 400px;
+ 
+}
 /*
 Changing brightness from 50% to 100% on hover
 */
