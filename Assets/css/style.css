@@ -195,33 +195,46 @@ a:hover
 {
     width: 100%;
     position:relative;
-    background-image: url('./img/quizmaster.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background:linear-gradient(90.6deg,  rgba(59,158,255,1) -1.2%, rgba(246,135,255,1) 91.6% );
-    */
+    background:linear-gradient(90.6deg,  rgba(59,158,255,1) -1.2%, rgba(246,135,255,1) 91.6% );
     min-height: 400px;
  
 }
 /*
 Changing brightness from 50% to 100% on hover
 */
-.Work-Card-1
+.Work-Card-1 
     {
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
     -webkit-transition: all 1s ease;
     }
     
-.Work-Card-1:hover
+.Work-Card-1:hover 
     {
     filter: brightness(100%);
     -webkit-filter: grayscale(100%);
     filter: none;
     transition: 1s ease;
     }
+
+.Work-Card-QM
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.Work-Card-QM:hover 
+    {
+    filter: brightness(100%);
+    -webkit-filter: grayscale(100%);
+    filter: none;
+    transition: 1s ease;
+    }    
 
     /*
 Absolutely positioning Card Text at the bottom right of the Work Cards
@@ -418,6 +431,21 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
         */
         min-height: 400px;
      
+    }
+
+.Work-Card-6 
+    {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.Work-Card-6:hover 
+    {
+    filter: brightness(100%);
+    -webkit-filter: grayscale(100%);
+    filter: none;
+    transition: 1s ease;
     }
 
 .work-card-7
