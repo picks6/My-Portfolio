@@ -218,6 +218,12 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     border:none;
 
 }
+.q64_text
+{
+    background-color: #d9dcd6;
+    border:none;
+
+}
 
 .msu-card-pss
     {
@@ -395,4 +401,33 @@ footer a
         filter: brightness(100%);
         -webkit-filter: brightness(100%);
         -webkit-transition: all 1s ease;
-        }
+    }
+
+    .msu-card-q64
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url("img/q64.jfif");
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+    }
+
+.msu-card-q64
+    {
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%)
+    }
+    
+.msu-card-q64:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+.msu-card-q64 .Card-Text{
+    right: 80px;
+    bottom: 10px;
+}

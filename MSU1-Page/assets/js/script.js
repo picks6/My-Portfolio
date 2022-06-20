@@ -23,4 +23,8 @@ $(".msu-card-ts").on('click', function(){
     $('<a href="https://drive.google.com/file/d/1GTIqzmTxs5LatiTy8iCgbCGTMS5MGqAp/view?usp=sharing" target="blank"></a>')[0].click();    
 })
 
+$(".msu-card-q64").on('click', function(){
+    $('<a href="https://drive.google.com/file/d/1dqhDNgWpW_-39BtYf_Yk2eKKrU6fPdHO/view?usp=sharing" target="blank"></a>')[0].click();    
+})
+
 
