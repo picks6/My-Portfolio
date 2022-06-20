@@ -40,22 +40,23 @@ body
 .subhead 
 {
     width:100%;
-    font-family: 'Trebuchet', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #0cbaba;
-    background-image: linear-gradient(105deg, #0cbaba 0%, #380036 74%);
-    height:250px;
-    min-height: 100px;
-    max-height: 500px;
-    color: #ffffff;  
-    font-size:24px;
+    display: inline;
+}
+
+.subhead1 .subhead2
+{
     position:relative;
-    text-align: right;
-    vertical-align: bottom;
+    width: 49%
 }
 
 /*Absolutely positioned subheader text at bottom right of the subheader container */
 
-
+.msu-list
+{
+    list-style-type: none;
+    display: inline-flex;
+    align-content: space-between;
+}
 body 
 {
     background-color: #d9dcd6;
