@@ -30,3 +30,6 @@ $(".msu-card-q64").on('click', function(){
 $(".msu-card-twc").on('click', function(){
     $('<a href="https://drive.google.com/file/d/1kr0ssU73_542eleWyIgK-pKZs7omT0uo/view?usp=sharing" target="blank"></a>')[0].click();    
 })
+$(".msu-card-lmtrilogy").on('click', function(){
+    $('<a href="https://drive.google.com/file/d/1md55dFcokXZAKhEEloLjSbSu6qwxbDvj/view?usp=sharing" target="blank"></a>')[0].click();    
+})

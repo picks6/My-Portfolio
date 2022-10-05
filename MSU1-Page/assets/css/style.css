@@ -462,3 +462,33 @@ footer a
         -webkit-filter: brightness(100%);
         -webkit-transition: all 1s ease;
     }
+
+    .msu-card-lmtrilogy
+    {
+    position: relative;
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image:url("img/luigi.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+    }
+
+    .lmt_text
+    {
+        position:absolute;
+        bottom: 20px;
+        right: 30px;
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 12px, 12px, gray;
+        color: white;
+        font-size: 24px;
+    }    
+
+    .msu-card-lmtrilogy:hover{
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -webkit-transition: all 1s ease;
+    }
