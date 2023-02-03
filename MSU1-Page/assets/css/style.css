@@ -89,17 +89,18 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
     text-align: center;
     font-size: 20px;
     background: linear-gradient(315deg, #0abcf9 0%, #fffb96 74%);
-}  
-  .jumbotron_main {
+}
+.jumbotron_main {
     text-align: center;
     background-color: transparent;
     border-radius: 0;
     border-bottom: 10px solid black;
     color: white;
-    background-image: url("https://cdn.gamer-network.net/2020/usgamer/A-Link-to-the-Past-Map-Header1-05292020.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/the-20-best-in-game-maps.jpg");
+    background-image: url("img/alttpmap.jpg");
+    background-size: cover;
     height: 50vh;
     position: relative;
-  }
+}
 
 .jumbotron_main h1{
     font-weight: bold;
@@ -110,8 +111,8 @@ Absolutely positioning Card Text at the bottom right of the Work Cards
 .subhead-text
   {
       position:absolute;
-      bottom: 20px;
-      left: 25px;
+      bottom: 80px;
+      right: 40px;
       font-weight: bold;
       font-style: italic;
       text-shadow: 12px, 12px, gray;
@@ -492,3 +493,59 @@ footer a
         -webkit-filter: brightness(100%);
         -webkit-transition: all 1s ease;
     }
+
+.msu-card-toreborn {
+    position: relative;
+    background: #4AC29A; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("img/toreborn.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+}
+
+.toreborn_text {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 12px, 12px, gray;
+    color: white;
+    font-size: 24px;
+}
+
+.msu-card-toreborn:hover {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+}
+
+.msu-card-winter {
+    position: relative;
+    background: #4AC29A; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("img/winter.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+    min-height: 350px;
+}
+
+.winter_text {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 12px, 12px, gray;
+    color: white;
+    font-size: 24px;
+}
+
+.msu-card-winter:hover {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+}
